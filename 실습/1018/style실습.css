@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#parent{
+    text-align: center;
+    height: 200px;
+    background: skyblue;
+}
+
+@media screen and (max-width: 600px){
+    #parent{
+        height: 420px;
+    }
+}    
+.child{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid green;
+    width: 200px;
+    height: 200px;
+    background: tomato;
+    margin-bottom: 10px;
+}
+@media  screen and (max-width: 600px) {
+    .child{
+        width: 90%;
+    }    
+}
