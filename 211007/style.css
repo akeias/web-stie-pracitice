@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+    body{
+        margin: 100px;
+        padding: 100px;
+        border: 3px solid salmon;
+    }
+    ul li:nth-child(2){
+        background: seagreen;
+    }
+
+    h1{
+        border: 1px solid black;
+        background: yellowgreen;
+        cursor: pointer;
+    }
+    h1:hover{
+        border: 1px solid red;
+        background: yellow;
+    }
+    input[type="text"]{
+        border: 1px solid purple;
+        }
+    input[type="password"]{
+        border: 1px solid purple;
+    }
+    h2:before{
+        content: "🔔";
+    }
+    h2:after{
+        content: "🔔";
+    }
+    p.text1{
+        background: orchid
+    }
+    p.text2{
+        background: olive
+    }
+    h3{
+        font-weight: 100px;
+        font-size: x-large;
+        font-style: normal;
+    }
+    article h3{
+        font-size: 40px;
+        font-family: 'Ephesis', cursive;
+    }
+    article p{
+        font-size: 0.8rem;
+        font-family: 'Akronim', cursive;
+    }
